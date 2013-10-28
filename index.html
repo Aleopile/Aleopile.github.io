@@ -1,6 +1,5 @@
 <html>
 <head>
-	<link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 </head>
 <body style="background-image:url(images/tweed.png)">
 <div class="row">
@@ -19,6 +18,7 @@
 
 	    var $rota = $(' img'),
 	        degree = 0,
+	        size = 0,
 	        timer;
 
 	    function rotate() {    
@@ -26,6 +26,7 @@
 	        // timeout increase degrees:
 	        timer = setTimeout(function() {
 	            degree+=5;
+	            size+=5;
 	            rotate(); // loop it
 	        },30);
 	    }
