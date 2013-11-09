@@ -2,38 +2,18 @@
 <head>
 </head>
 <body style="background-image:url(images/tweed.png)">
-<div class="row">
-<div class="col-md-12">
-<br/>
-<br/>
-<img id="big_logo" src="images/aleopile.png" style="display: block; margin-left: auto;
-    margin-right: auto; max-width: 30%; height: auto;">
-</div>
-</div>
+	<div class="row">
+		<div class="col-md-12">
+			<br/>
+			<br/>
+			<img id="big_logo" src="images/aleopile.png" style="display: block; margin-left: auto;
+			margin-right: auto; max-width: 30%; height: auto;">
+		</div>
+	</div>
 
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script type="text/javascript">
-	$(function() {
-
-	    var $rota = $(' img'),
-	        degree = 0,
-	        size = 0,
-	        timer;
-
-	    function rotate() {    
-	        $rota.css({ transform: 'rotate(' + degree + 'deg)'});
-	        // timeout increase degrees:
-	        timer = setTimeout(function() {
-	            degree+=5;
-	            size+=5;
-	            rotate(); // loop it
-	        },30);
-	    }
-
-	    rotate();    // run it!
-
-	});
-</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/rotate_logo.js" >
+	</script>
 </body>
 </html>
