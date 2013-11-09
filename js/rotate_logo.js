@@ -1,6 +1,6 @@
 $(function() {
 
-	var $rota = $(' img'),
+	var $rota = $('#alllogo'),
 	degree = 0,
 	size = 0,
 	timer;

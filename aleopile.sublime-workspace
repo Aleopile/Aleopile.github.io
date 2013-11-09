@@ -1,0 +1,628 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"res",
+				"res"
+			],
+			[
+				"out",
+				"outputRows"
+			],
+			[
+				"get",
+				"getRequestUrl"
+			],
+			[
+				"ge",
+				"gensym"
+			],
+			[
+				"count",
+				"counter"
+			],
+			[
+				"con",
+				"counterf"
+			],
+			[
+				"rev",
+				"revoke"
+			],
+			[
+				"revk",
+				"revokable"
+			],
+			[
+				"una",
+				"unary"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"coun",
+				"counterf"
+			],
+			[
+				"on",
+				"once"
+			],
+			[
+				"com",
+				"composeb"
+			],
+			[
+				"bin",
+				"binary1"
+			],
+			[
+				"app",
+				"applyf"
+			],
+			[
+				"ap",
+				"applyf"
+			],
+			[
+				"bi",
+				"binary"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"in",
+				"indentity3"
+			],
+			[
+				"de",
+				"defs	Method"
+			],
+			[
+				"d",
+				"defs	Method"
+			],
+			[
+				"E",
+				"EPAD"
+			],
+			[
+				"sp",
+				"speeds"
+			],
+			[
+				"remot",
+				"remote_control"
+			],
+			[
+				"remo",
+				"remote_control"
+			],
+			[
+				"rem",
+				"remote_control"
+			],
+			[
+				"p",
+				"pulseIn"
+			],
+			[
+				"u",
+				"Ultrasonic"
+			],
+			[
+				"blinker",
+				"blinker_on"
+			],
+			[
+				"r",
+				"runningLights"
+			],
+			[
+				"left",
+				"leftMotor"
+			],
+			[
+				"lef",
+				"leftValue"
+			],
+			[
+				"c",
+				"calculateLinearSpeeds"
+			],
+			[
+				"le",
+				"leftMotor"
+			],
+			[
+				"int",
+				"int8_t"
+			],
+			[
+				"wi",
+				"write"
+			],
+			[
+				"tu",
+				"turnSignalLeds"
+			],
+			[
+				"a",
+				"autoOnLeds"
+			],
+			[
+				"R",
+				"RGB_PINS"
+			],
+			[
+				"p2",
+				"p2_selection"
+			],
+			[
+				"p1",
+				"p1_selection"
+			],
+			[
+				"In",
+				"InfaredComm"
+			],
+			[
+				"lorem",
+				"lorem	lorem - Medium paragraph"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":wq",
+				"Snippet: jQuery.isWindow"
+			],
+			[
+				"js",
+				"Set Syntax: JSON"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"new",
+				"File: New View into File"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"y",
+				"Set Syntax: YAML"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"set",
+				"Set Syntax: Tcl"
+			],
+			[
+				":=",
+				"Snippet: if __name__ == '__main__'"
+			],
+			[
+				"Make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git b",
+				"Git: Change Branch"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git ",
+				"Git: Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"git iff",
+				"Git: Diff All"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"sav",
+				"File: Save All"
+			],
+			[
+				"sav ",
+				"File: Save All"
+			],
+			[
+				":s",
+				":w - Save"
+			],
+			[
+				":e",
+				":e - Revert"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"staus",
+				"Git: Status"
+			],
+			[
+				":1",
+				"Emmet: Decrement Number by 1"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"C++",
+				"Set Syntax: C++"
+			],
+			[
+				"set c",
+				"Set Syntax: C++"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				":q",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"git: staus",
+				"Git: Status"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/rohan/nodejs_apps/first/first.js",
+		"/home/rohan/nodejs_apps/first/mysql_config.json",
+		"/home/rohan/CodeCamp2013/FunwithFuctions/number2.html",
+		"/home/rohan/CodeCamp2013/FunwithFuctions/number1.html",
+		"/home/rohan/Downloads/HexBridge_v2.0_ref/diode.lbr",
+		"/home/rohan/catkin_ws/src/ROS_Hercules_Robot/hercules_robot/hercules_node/src/HerculesController.h",
+		"/home/rohan/catkin_ws/src/ROS_Hercules_Robot/hercules_robot/hercules_node/src/HerculesController.cc",
+		"/home/rohan/eagle/untitled.lbr",
+		"/home/rohan/catkin_ws/src/ROS_Hercules_Robot/hercules_robot/hercules_node/src/.gitignore",
+		"/home/rohan/catkin_ws/src/ROS_Hercules_Robot/hercules_robot/hercules_node/src/controller.cc",
+		"/home/rohan/eagle-6.5.0/eagle.sh",
+		"/home/rohan/catkin_ws/src/ROS_Hercules_Robot/hercules_robot/hercules_node/src/COMMIT_EDITMSG.COMMIT_EDITMSG",
+		"/home/rohan/PCBs/SpeakerAmp/SpeakerAmp.pro",
+		"/home/rohan/sketchbook/everything_bot/Head_everythingBot/Leds.cpp",
+		"/home/rohan/sketchbook/everything_bot/Base_everythingBot/Ultrasonic.cpp",
+		"/home/rohan/sketchbook/everything_bot/Base_everythingBot/MotorDrive.cpp",
+		"/home/rohan/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+		"/home/rohan/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/rohan/sketchbook/everything_bot/Head_everythingBot/Head_everythingBot.ino",
+		"/home/rohan/sketchbook/everything_bot/Base_everythingBot/Ultrasonic.h",
+		"/home/rohan/sketchbook/everything_bot/Base_everythingBot/MotorDrive.h",
+		"/home/rohan/sketchbook/everything_bot/Head_everythingBot/Leds.h",
+		"/home/rohan/sketchbook/everything_bot/everything_bot.sublime-project",
+		"/home/rohan/sketchbook/everything_bot/Base_everythingBot/Base_everythingBot.ino",
+		"/home/rohan/sketchbook/everything_bot/Head_everythingBot/Enums.h",
+		"/home/rohan/.config/sublime-text-3/Packages/User/trailing_spaces.sublime-settings",
+		"/usr/share/arduino/examples/02.Digital/BlinkWithoutDelay/BlinkWithoutDelay.ino",
+		"/home/rohan/sketchbook/emotipal/emotipal.ino",
+		"/home/rohan/sketchbook/RockPaper_with_setup_function/RockPaper_with_setup_function.ino",
+		"/var/www/kids-bytes/kids-bytes",
+		"/home/rohan/arm-boards/frdm-kl25z/mbed/Blink/main.cpp",
+		"/opt/ros/groovy/stacks/turtlebot_apps/turtlebot_navigation/launch/includes/_gmapping.launch",
+		"/home/rohan/ologic/PretzleFirmware/Pretzel/src/com/ologicinc/pretzel/Pretzel.java",
+		"/home/rohan/ologic/PretzleFirmware/Pretzel/res/layout/activity_pretzel.xml",
+		"/home/rohan/ologic/PretzleFirmware/Pretzel/res/layout/COMMIT_EDITMSG.COMMIT_EDITMSG",
+		"/home/rohan/ologic/PretzleFirmware/Pretzel/.gitignore",
+		"/home/rohan/ologic/PretzleFirmware/Pretzel",
+		"/home/rohan/test_sublime.php",
+		"/home/rohan/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/rohan/catkin_ws/src/ROS-LIDAR/non_ros_api/laser_toggle.py",
+		"/home/rohan/catkin_ws/src/rosserial/rosserial_python/nodes/serial_node.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"",
+			"fp",
+			"IN",
+			"sma4",
+			"sma",
+			"EPAD",
+			"Ulrasonic",
+			"bl",
+			"52",
+			"private",
+			"LOW",
+			"HIGH",
+			"avalible",
+			"LOW",
+			"bool",
+			"//",
+			"writeMircoseconds",
+			"HIGH",
+			"//",
+			"frown",
+			"LOW",
+			"p2_section",
+			"\n}",
+			"red",
+			"green",
+			"red",
+			"green",
+			"ecc",
+			"red",
+			"name",
+			"php",
+			"goog",
+			"Rohan",
+			"Yo",
+			"name",
+			"	$",
+			"name",
+			"  ?>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"available",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "aleopile.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"leds",
+				"Head_everythingBot/Leds.cpp"
+			],
+			[
+				"hed",
+				"Head_everythingBot/Head_everythingBot.ino"
+			],
+			[
+				"pret",
+				"src/com/ologicinc/pretzel/Pretzel.java"
+			],
+			[
+				"lay",
+				"res/layout/activity_pretzel.xml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
