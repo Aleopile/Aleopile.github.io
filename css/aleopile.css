@@ -111,11 +111,10 @@ body {
 }
 
 .featurette-image {
-  overflow: hidden;
-  overflow-x: hidden;
-  overflow-y: hidden;
   top: 0;
   left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 
