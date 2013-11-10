@@ -63,9 +63,9 @@ body {
 .carousel .item {
   height: 500px;
   background-color: #777;
+  overflow: hidden;
 }
 .carousel-inner > .item > img {
-  overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;
