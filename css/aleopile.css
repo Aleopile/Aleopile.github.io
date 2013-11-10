@@ -7,6 +7,11 @@ body {
   padding-top: 50px;
 }
 
+
+p {
+  font-size:14px;
+}
+
 #big_logo {
   display: block;
   margin-left: auto;
@@ -70,7 +75,6 @@ body {
   top: 0;
   left: 0;
 }
-
 
 
 /* MARKETING CONTENT
