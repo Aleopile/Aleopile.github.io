@@ -69,7 +69,6 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
 }
 
 
@@ -158,6 +157,9 @@ body {
     font-size: 50px;
   }
 
+  .carousel-inner > .item > img {
+    min-width: 100%;
+  }
 }
 
 @media (min-width: 992px) {
