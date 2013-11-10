@@ -110,6 +110,14 @@ body {
   letter-spacing: -1px;
 }
 
+.featurette-image {
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  top: 0;
+  left: 0;
+}
+
 
 
 @media (max-width: 768px){
