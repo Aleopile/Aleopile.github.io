@@ -123,20 +123,20 @@
 		<div class="row">
 			<div class="col-lg-4">
 				<!-- <img class="img-circle" data-src="holder.js/140x140/auto/#777:#aaaaaa/" alt="Generic placeholder image"> -->
-				<img src="images/applications-internet.png"/>
+				<img  class="img-circle lazy" data-original="images/applications-internet.png"/>
 				<h2>Web Design</h2>
 				<p>Aleopile works heavily in Web Design. We use only modern web standards, making your website ready fo the modern web. Our developers use responsive web techniques that allow your website to be optimized for the both Desktop and Mobile markets.</p>
 				<p><a class="btn btn-default" href="#web" role="button">View details &raquo;</a></p>
 			</div><!-- /.col-lg-4 -->
 
 			<div class="col-lg-4">
-				<img class="img-circle" src="http://spectrum.ieee.org/img/unbounded1-1382335149866.jpg" width="140" height="140" />
+				<img class="img-circle lazy" data-original="http://spectrum.ieee.org/img/unbounded1-1382335149866.jpg" width="140" height="140" />
 				<h2>Robotics</h2>
 				<p>Aleopile specializes in Robotics, developing robots using the power of the ROS system. These robots are capable of autonomus navigation in a known indoor environment. We can also design a web inferface to control your robot remotely.</p>
 				<p><a class="btn btn-default" href="#robots" role="button">View details &raquo;</a></p>
 			</div><!-- /.col-lg-4 -->
 			<div class="col-lg-4">
-				<img class="img-circle" src="images/PCB.jpg" width="140" height="140"/>
+				<img class="img-circle lazy" data-original="images/PCB.jpg" width="140" height="140"/>
 				<h2>Circuit Design</h2>
 				<p>Aleopile works in circuit design, schematic capture as well as PCB layout and routing. We are capable of designing multi-layer boards with surface mount parts. We can send the board out to be manufactured for you. </p>
 				<p><a class="btn btn-default" href="#circuits" role="button">View details &raquo;</a></p>
@@ -154,7 +154,7 @@
 				<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 			</div>
 			<div class="col-md-5" style="height: 500px; overflow: hidden;">
-				<img class="featurette-image img-responsive" src="images/kids-bytes.jpg"/>
+				<img class="featurette-image img-responsive lazy" data-original="images/kids-bytes.jpg"/>
 			</div>
 		</div>
 
@@ -164,7 +164,7 @@
 
 		<div class="row featurette">
 			<div class="col-md-5" style="height: 500px; overflow: hidden;">
-				<img class="featurette-image img-responsive" src="images/herculesv2.jpg"/>
+				<img class="featurette-image img-responsive lazy" data-original="images/herculesv2.jpg"/>
 			</div>
 			<div class="col-md-7">
 				<h2 class="featurette-heading">Intelligent Robots, <span class="text-muted">be more productive.</span></h2>
@@ -181,7 +181,7 @@
 				<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 			</div>
 			<div class="col-md-5" style="height: 500px; overflow: hidden;">
-				<img class="featurette-image img-responsive" src="images/circuit.png"/>
+				<img class="featurette-image img-responsive lazy" data-original="images/circuit.png"/>
 			</div>
 		</div>
 
@@ -201,7 +201,15 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="js/rotate_logo.js"></script>
+	<!--<script src="js/rotate_logo.js"></script>-->
 	<script src="bootstrap/docs-assets/js/holder.js"></script>
+	<script src="js/jquery.lazyload.min.js" type="text/javascript"></script>
+	<script type="text/javascript" charset="utf-8">
+	$(function() {
+	   $("img.lazy").lazyload({
+	       effect : "fadeIn"
+	   });
+	});
+	</script>
 </body>
 </html>
