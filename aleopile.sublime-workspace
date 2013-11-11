@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"hi",
+				"height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"h",
+				"height	Attr"
+			],
+			[
 				"max",
 				"max-width"
 			],
@@ -152,10 +164,6 @@
 				"int8_t"
 			],
 			[
-				"wi",
-				"write"
-			],
-			[
 				"tu",
 				"turnSignalLeds"
 			],
@@ -191,23 +199,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8932,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bootstrap/examples/carousel/index.html",
-			"settings":
-			{
-				"buffer_size": 10022,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bootstrap/examples/carousel/carousel.css",
-			"settings":
-			{
-				"buffer_size": 2729,
+				"buffer_size": 6923,
 				"line_ending": "Unix"
 			}
 		},
@@ -215,15 +207,7 @@
 			"file": "css/aleopile.css",
 			"settings":
 			{
-				"buffer_size": 3025,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/rotate_logo.js",
-			"settings":
-			{
-				"buffer_size": 369,
+				"buffer_size": 1788,
 				"line_ending": "Unix"
 			}
 		}
@@ -464,6 +448,16 @@
 	},
 	"file_history":
 	[
+		"/home/rohan/web/Aleopile.github.io/js/rotate_logo.js",
+		"/home/rohan/web/Aleopile.github.io/bootstrap/js/carousel.js",
+		"/home/rohan/web/Aleopile.github.io/js/jquery.lazyload.min.js",
+		"/home/rohan/.cache/.fr-cyOGu8/jquery_lazyload-1.9.0/enabled_fadein.html",
+		"/home/rohan/web/Aleopile.github.io/css/aleopile.min.css",
+		"/home/rohan/web/Aleopile.github.io/css/aleopile.css",
+		"/home/rohan/web/Aleopile.github.io/bootstrap/examples/carousel/carousel.css",
+		"/home/rohan/web/Aleopile.github.io/index.html",
+		"/home/rohan/web/Aleopile.github.io/bootstrap/examples/carousel/index.html",
+		"/home/rohan/web/Aleopile.github.io/images/mapping.png",
 		"/home/rohan/nodejs_apps/first/first.js",
 		"/home/rohan/nodejs_apps/first/mysql_config.json",
 		"/home/rohan/CodeCamp2013/FunwithFuctions/number2.html",
@@ -522,6 +516,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"da",
+			"src",
+			"featurette",
 			"box",
 			"\"",
 			"fp",
@@ -589,21 +586,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8932,
+						"buffer_size": 6923,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								407,
-								407
+								2077,
+								2077
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -614,77 +610,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "bootstrap/examples/carousel/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10022,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								403,
-								403
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "bootstrap/examples/carousel/carousel.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2729,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1115,
-								1115
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 576.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "css/aleopile.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3025,
+						"buffer_size": 1788,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								191,
-								191
+								429,
+								429
 							]
 						],
 						"settings":
@@ -692,34 +630,6 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/rotate_logo.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 369,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								33,
-								33
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -814,7 +724,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 191.0,
+	"side_bar_width": 204.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
