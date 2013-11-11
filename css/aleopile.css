@@ -8,7 +8,7 @@ p {font-size:14px;}
 .carousel-caption > h1{text-shadow: 2px 2px #000000;}
 .carousel-caption > p{text-shadow: 1px 2px #000000;}
 .carousel .item {
-  height: 500px;
+  /*height: 500px;*/
   background-color: #777;
   overflow: hidden;
 }
@@ -61,6 +61,10 @@ p {font-size:14px;}
   .carousel-inner > .item > img {
     height: 500px;
   }
+  .carousel .item {
+    height: 60overflow-style: marquee;
+    %;
+  }
 }
 
 @media (min-width: 768px) {
@@ -94,6 +98,9 @@ p {font-size:14px;}
 
   .carousel-inner > .item > img {
     min-width: 100%;
+  }
+  .carousel .item {
+    height: 500px;
   }
 }
 
