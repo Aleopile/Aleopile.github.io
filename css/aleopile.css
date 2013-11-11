@@ -9,8 +9,8 @@ p {font-size:14px;}
 .carousel-caption > p{text-shadow: 1px 2px #000000;}
 .carousel .item {
   /*height: 500px;*/
-  /*background-color: #EEE;*/
-  background-image: url(images/sos.png);
+  background-color: #EEE;
+  /*background-image: url(images/sos.png);*/
   overflow: hidden;
 }
 .carousel-inner > .item > img {
@@ -37,8 +37,6 @@ p {font-size:14px;}
   margin-right: 10px;
 }
 
-
-
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
@@ -62,9 +60,8 @@ p {font-size:14px;}
   .carousel-inner > .item > img {
     height: 500px;
   }
-  .carousel .item {
-    height: 60overflow-style: marquee;
-    %;
+  #myCarousel {
+    display: none;
   }
 }
 
@@ -102,6 +99,9 @@ p {font-size:14px;}
   }
   .carousel .item {
     height: 500px;
+  }
+  #title_stuff{
+    margin-top: -20px;
   }
 }
 
