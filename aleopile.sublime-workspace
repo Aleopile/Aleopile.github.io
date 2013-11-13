@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"di",
+				"display"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"s",
+				"style	Attr"
+			],
+			[
 				"hi",
 				"height"
 			],
@@ -199,7 +211,31 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6923,
+				"buffer_size": 8938,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/dist/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 126432,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "about.html",
+			"settings":
+			{
+				"buffer_size": 3220,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contact.html",
+			"settings":
+			{
+				"buffer_size": 1658,
 				"line_ending": "Unix"
 			}
 		},
@@ -207,7 +243,7 @@
 			"file": "css/aleopile.css",
 			"settings":
 			{
-				"buffer_size": 1788,
+				"buffer_size": 1960,
 				"line_ending": "Unix"
 			}
 		}
@@ -215,16 +251,28 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 138.0,
 		"selected_items":
 		[
 			[
-				"pa",
-				"Package Control: Install Package"
+				"git add",
+				"Git: Add Current File"
 			],
 			[
-				"pack",
-				"Preferences: Browse Packages"
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git comm",
+				"Git: Quick Commit"
 			],
 			[
 				":w",
@@ -232,7 +280,39 @@
 			],
 			[
 				":wq",
-				"Snippet: jQuery.isWindow"
+				"Snippet: overflow-style:marquee"
+			],
+			[
+				"git com",
+				"Git: Quick Commit"
+			],
+			[
+				"git co",
+				"Git: Quick Commit"
+			],
+			[
+				"git add ",
+				"Git: Add..."
+			],
+			[
+				"g",
+				"Git: Commit"
+			],
+			[
+				"git sa",
+				"Git: Status"
+			],
+			[
+				"gitadd",
+				"Git: Add..."
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
 			],
 			[
 				"js",
@@ -275,16 +355,8 @@
 				"Git: Status"
 			],
 			[
-				"git push",
-				"Git: Push"
-			],
-			[
 				"git b",
 				"Git: Change Branch"
-			],
-			[
-				"git pull",
-				"Git: Pull"
 			],
 			[
 				"git sta",
@@ -297,14 +369,6 @@
 			[
 				"git ",
 				"Git: Commit"
-			],
-			[
-				"git comm",
-				"Git: Commit"
-			],
-			[
-				"git add",
-				"Git: Add Current File"
 			],
 			[
 				"commit",
@@ -379,10 +443,6 @@
 				"Git: Push"
 			],
 			[
-				"git com",
-				"Git: Commit"
-			],
-			[
 				"pull",
 				"Git: Pull"
 			],
@@ -448,6 +508,10 @@
 	},
 	"file_history":
 	[
+		"/home/rohan/web/Aleopile.github.io/bootstrap/examples/carousel/index.html",
+		"/home/rohan/web/Aleopile.github.io/bootstrap/dist/css/bootstrap.min.css",
+		"/home/rohan/web/Aleopile.github.io/bootstrap/examples/jumbotron/index.html",
+		"/home/rohan/web/Aleopile.github.io/COMMIT_EDITMSG.COMMIT_EDITMSG",
 		"/home/rohan/web/Aleopile.github.io/js/rotate_logo.js",
 		"/home/rohan/web/Aleopile.github.io/bootstrap/js/carousel.js",
 		"/home/rohan/web/Aleopile.github.io/js/jquery.lazyload.min.js",
@@ -456,7 +520,6 @@
 		"/home/rohan/web/Aleopile.github.io/css/aleopile.css",
 		"/home/rohan/web/Aleopile.github.io/bootstrap/examples/carousel/carousel.css",
 		"/home/rohan/web/Aleopile.github.io/index.html",
-		"/home/rohan/web/Aleopile.github.io/bootstrap/examples/carousel/index.html",
 		"/home/rohan/web/Aleopile.github.io/images/mapping.png",
 		"/home/rohan/nodejs_apps/first/first.js",
 		"/home/rohan/nodejs_apps/first/mysql_config.json",
@@ -516,6 +579,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"777",
+			"777777",
 			"da",
 			"src",
 			"featurette",
@@ -586,19 +651,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6923,
+						"buffer_size": 8938,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2077,
-								2077
+								635,
+								635
 							]
 						],
 						"settings":
 						{
+							"spell_check": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -610,19 +676,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/aleopile.css",
+					"file": "bootstrap/dist/css/bootstrap.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1788,
+						"buffer_size": 126432,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								429,
-								429
+								76783,
+								76783
 							]
 						],
 						"settings":
@@ -632,7 +698,93 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 69856.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2097,
+								2097
+							]
+						],
+						"settings":
+						{
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 409.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								823,
+								823
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/aleopile.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1871,
+								1871
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1145.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -671,6 +823,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.git":
+	{
+		"height": 112.0
+	},
 	"project": "aleopile.sublime-project",
 	"replace":
 	{
