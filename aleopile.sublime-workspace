@@ -211,7 +211,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8938,
+				"buffer_size": 8939,
 				"line_ending": "Unix"
 			}
 		},
@@ -227,7 +227,7 @@
 			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 3220,
+				"buffer_size": 7515,
 				"line_ending": "Unix"
 			}
 		},
@@ -243,7 +243,7 @@
 			"file": "css/aleopile.css",
 			"settings":
 			{
-				"buffer_size": 1960,
+				"buffer_size": 2458,
 				"line_ending": "Unix"
 			}
 		}
@@ -251,16 +251,20 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 138.0,
+		"height": 96.0,
 		"selected_items":
 		[
 			[
-				"git add",
-				"Git: Add Current File"
-			],
-			[
 				"git push",
 				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
 			],
 			[
 				"git commi",
@@ -508,6 +512,8 @@
 	},
 	"file_history":
 	[
+		"/home/rohan/web/Aleopile.github.io/css/font-awesome.min.css",
+		"/home/rohan/web/Aleopile.github.io/css/modern-business.css",
 		"/home/rohan/web/Aleopile.github.io/bootstrap/examples/carousel/index.html",
 		"/home/rohan/web/Aleopile.github.io/bootstrap/dist/css/bootstrap.min.css",
 		"/home/rohan/web/Aleopile.github.io/bootstrap/examples/jumbotron/index.html",
@@ -579,6 +585,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"page-he",
+			"linkedin",
+			"inkedin",
 			"777",
 			"777777",
 			"da",
@@ -642,7 +651,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -651,15 +660,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8938,
+						"buffer_size": 8939,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								635,
-								635
+								8561,
+								8561
 							]
 						],
 						"settings":
@@ -669,7 +678,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2197.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -709,15 +718,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3220,
+						"buffer_size": 7515,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2097,
-								2097
+								6080,
+								6080
 							]
 						],
 						"settings":
@@ -727,7 +736,7 @@
 							"tab_size": 2
 						},
 						"translation.x": 0.0,
-						"translation.y": 409.0,
+						"translation.y": 1080.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -766,15 +775,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1960,
+						"buffer_size": 2458,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1871,
-								1871
+								2080,
+								2080
 							]
 						],
 						"settings":
@@ -784,7 +793,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1145.0,
+						"translation.y": 1163.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
