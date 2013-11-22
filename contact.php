@@ -17,8 +17,8 @@
     <link href="./modern-business/css/bootstrap.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
-    <link href="css/modern-business.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./modern-business/css/modern-business.css" rel="stylesheet">
+    <link href="./modern-business/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
   <body>
@@ -174,9 +174,9 @@
     </div><!-- /.container -->
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/modern-business.js"></script>
+    <script src="./modern-business/js/jquery.js"></script>
+    <script src="./modern-business/js/bootstrap.js"></script>
+    <script src="./modern-business/js/modern-business.js"></script>
     
   </body>
 </html>
