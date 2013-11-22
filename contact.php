@@ -39,9 +39,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li class="active"><a href="contact.php">Contact</a></li>
+            <li><a href="./modern-business/about.html">About</a></li>
+            <li><a href="./modern-business/services.html">Services</a></li>
+            <li class="active"><a href="./modern-business/contact.php">Contact</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
               <ul class="dropdown-menu">
