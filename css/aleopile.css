@@ -70,6 +70,7 @@ p {font-size:14px;}
 @media (max-width: 768px){
   .carousel-inner > .item > img {
     height: 500px;
+    max-width: 768px;
   }
   #myCarousel {
     /*display: none;*/
