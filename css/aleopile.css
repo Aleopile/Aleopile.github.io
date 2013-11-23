@@ -8,7 +8,7 @@ p {font-size:14px;}
 .carousel-caption > h1{text-shadow: 2px 2px #000000;}
 .carousel-caption > p{text-shadow: 1px 2px #000000;}
 .carousel .item {
-  /*height: 500px;*/
+  height: 500px;
   background-color: #EEE;
   /*background-image: url(images/sos.png);*/
   overflow: hidden;
@@ -17,6 +17,7 @@ p {font-size:14px;}
   position: absolute;
   top: 0;
   left: 0;
+  min-width: 100%;
 }
 
 
@@ -71,7 +72,7 @@ p {font-size:14px;}
     height: 500px;
   }
   #myCarousel {
-    display: none;
+    /*display: none;*/
   }
 }
 
