@@ -58,7 +58,7 @@
       <h4>A Consulting Company</h4>
       <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: (408) 837-2013</p>
       <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="rohan@aleopile.com">rohan@aleopile.com</a></p>
-      <p><i class="fa fa-clock-o"></i> <abbr title="Hours">H</abbr>: Monday - Saturday: 3:30 PM to 8:00 PM PST</p>
+      <p><i class="fa fa-clock-o"></i> <abbr title="Hours">H</abbr>: Monday - Friday: 3:30 PM to 8:00 PM Saturday - Sunday: 10 AM to 9:00 PM PST</p>
       <ul class="list-unstyled list-inline list-social-icons">
         <li class="tooltip-social facebook-link"><a href="https://www.facebook.com/aleopile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
         <!-- <li class="tooltip-social linkedin-link"><a href="#linkedin-company-page" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li> -->
