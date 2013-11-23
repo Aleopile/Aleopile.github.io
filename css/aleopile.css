@@ -9,7 +9,7 @@ p {font-size:14px;}
 .carousel-caption > p{text-shadow: 1px 2px #000000;}
 .carousel .item {
   height: 500px;
-  background-color: #EEE;
+  background-image: url('images/images/sos.png');
   text-align: center;
   overflow: hidden;
 }
@@ -76,9 +76,6 @@ p {font-size:14px;}
     left: -9999px;
     right: -9999px;
     margin: auto;
-  }
-  #myCarousel {
-    /*display: none;*/
   }
 }
 
