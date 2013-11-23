@@ -10,7 +10,7 @@ p {font-size:14px;}
 .carousel .item {
   height: 500px;
   background-color: #EEE;
-  /*background-image: url(images/sos.png);*/
+  text-align: center;
   overflow: hidden;
 }
 .carousel-inner > .item > img {
@@ -71,6 +71,11 @@ p {font-size:14px;}
   .carousel-inner > .item > img {
     height: 500px;
     max-width: 768px;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
   }
   #myCarousel {
     /*display: none;*/
