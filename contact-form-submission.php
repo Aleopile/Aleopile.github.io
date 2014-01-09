@@ -6,10 +6,10 @@ if (!isset($_POST['save']) || $_POST['save'] != 'contact') {
 }
 	
 // get the posted data
-$name = $_POST['contact_name'];
-$email_address = $_POST['contact_email'];
-$phone = $_POST['contact_phone'];
-$message = $_POST['contact_message'];
+$name = $_POST['name'];
+$email_address = $_POST['email'];
+$phone = $_POST['phone'];
+$message = $_POST['message'];
 	
 // check that a name was entered
 if (empty($name))
