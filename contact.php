@@ -26,24 +26,24 @@
         elseif (isset($_GET['e'])) echo "<div class=\"alert alert-danger\">".$_GET['e']."</div>";
 
         ?>
-        <form role="form" method="POST" action="contact-form-submission.php">
+        <form role="form" method="POST" action="contact-form-submission.php" id="contactForm">
          <div class="row">
            <div class="form-group col-lg-4">
-             <label for="input1">Name</label>
-             <input type="text" name="contact_name" class="form-control" id="input1">
+             <label for="name">Name</label>
+             <input type="text" name="name" class="form-control" id="name">
            </div>
            <div class="form-group col-lg-4">
-             <label for="input2">Email Address</label>
-             <input type="email" name="contact_email" class="form-control" id="input2">
+             <label for="email">Email Address</label>
+             <input type="email" name="email" class="form-control" id="email">
            </div>
            <div class="form-group col-lg-4">
-             <label for="input3">Phone Number</label>
-             <input type="phone" name="contact_phone" class="form-control" id="input3">
+             <label for="phone">Phone Number</label>
+             <input type="phoneUS" name="phone" class="form-control" id="phone">
            </div>
            <div class="clearfix"></div>
-           <div class="form-group col-lg-12">
-             <label for="input4">Message</label>
-             <textarea name="contact_message" class="form-control" rows="6" id="input4"></textarea>
+           <div class="form-group col-lg-12" style="z-index:2;">
+             <label for="message">Message</label>
+             <textarea name="message" class="form-control" rows="6" id="message"></textarea>
            </div>
            <div class="form-group col-lg-12">
              <input type="hidden" name="save" value="contact">
@@ -112,6 +112,8 @@
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.js" type="text/javascript"></script>
+  <script src="js/validate.additional.js" type="text/javascript"></script>
   <script src="js/jquery.lazyload.min.js" type="text/javascript"></script>
   <script type="text/javascript" charset="utf-8">
   $(function() {
@@ -119,6 +121,35 @@
          effect : "fadeIn"
      });
   });
+$(document).ready(function(){
+	$('#contactForm').validate({
+		rules: {
+		      name: {
+		        minlength: 3,
+		        required: true
+		      },
+		      email: {
+		        required: true,
+		        email: true
+		      },
+		      phone: {
+		      	phoneUS: true,
+		        required: true
+		      },
+		      message: {
+		        minlength: 20,
+		        required: true
+		      }
+		    },
+		highlight: function(element) {
+		$(element).closest('.form-group').removeClass('has-success').addClass('has-error');
+		},
+		success: function(element){
+		$(element).text('OK!').addClass('valid')
+		.closest('.form-group').removeClass('has-error').addClass('has-success');
+		}
+	});
+});
   </script>
 
   <script>

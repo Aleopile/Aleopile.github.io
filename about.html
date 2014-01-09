@@ -33,14 +33,13 @@
 					<p>Chief Web designer, programer, and Roboticist.</p>
 
 					<div class="panel-group" id="accordion">
-						<div class="panel panel-default">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><div class="panel panel-default">
 							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-										Rohan In the Press
-									</a>
+								<h4 class="panel-title" id="toggler">
+									Rohan In the Press
+									<div class="pull-right glyphicon glyphicon-chevron-down" id="toggleArrow"></div>
 								</h4>
-							</div>
+							</div></a>
 							<div id="collapseOne" class="panel-collapse collapse">
 								<div class="panel-body">
 									<blockquote class="twitter-tweet"><p>Checkout this <a href="https://twitter.com/search?q=%23Mashable&amp;src=hash">#Mashable</a> article about <a href="https://twitter.com/gonzobyte">@gonzobyte</a>.&#10;<a href="http://t.co/XtwfJQzGBp">http://t.co/XtwfJQzGBp</a></p>&mdash; Aleopile (@Aleopile) <a href="https://twitter.com/Aleopile/statuses/399980047135555584">November 11, 2013</a></blockquote>
@@ -86,7 +85,14 @@
 
 		   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		   <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-
+		   <script>
+		   $(document).ready(function(){$('#toggler').click(function(){
+		   	if($('#toggleArrow').hasClass('glyphicon-chevron-down'))
+		   		$('#toggleArrow').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+		   	else
+		   		$('#toggleArrow').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+		   });});
+		   </script>
 		   <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 		   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 		   <div id="fb-root"></div>
