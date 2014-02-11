@@ -145,7 +145,7 @@ $(document).ready(function(){
 		$(element).closest('.form-group').removeClass('has-success').addClass('has-error');
 		},
 		success: function(element){
-		$(element).text('OK!').addClass('valid')
+		$(element).text('').addClass('valid')
 		.closest('.form-group').removeClass('has-error').addClass('has-success');
 		}
 	});
