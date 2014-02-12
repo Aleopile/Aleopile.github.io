@@ -217,7 +217,7 @@ $.extend($.validator, {
 		rules: {},
 		errorClass: "error",
 		validClass: "valid",
-		errorElement: "label",
+		errorElement: "p",
 		focusInvalid: true,
 		errorContainer: $([]),
 		errorLabelContainer: $([]),
@@ -610,7 +610,7 @@ $.extend($.validator, {
 				// title is never undefined, so handle empty string as undefined
 				!this.settings.ignoreTitle && element.title || undefined,
 				$.validator.messages[method],
-				"<strong>Warning: No message defined for " + element.name + "</strong>"
+				"<p>Warning: No message defined for " + element.name + "</p>"
 			);
 		},
 
